@@ -7,7 +7,14 @@
 		"optimize-autoloader": true,
 		"classmap-authoritative": true
 	},
+	"minimum-stability": "dev",
 	"require": {
-		"clue/phar-composer": "^1.0"
+		"humbug/box": "3.13.0"
+	},
+	"require-dev": {
+		"roave/security-advisories": "dev-latest"
+	},
+	"scripts": {
+		"build": "cd src && composer install --no-dev && cd .. && vendor/bin/box compile"
 	}
 }

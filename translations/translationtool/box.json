@@ -1,0 +1,6 @@
+{
+	"chmod": "0755",
+	"compression": "GZ",
+	"main": "src/translationtool.php",
+	"output": "translationtool.phar"
+}

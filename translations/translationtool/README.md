@@ -2,6 +2,13 @@
 
 This tool is used to extract translatable texts from the source code and to create translation files that can be used by Nextcloud.
 
+## Rebuilding the translationtool.phar
+
+```shell
+composer install
+composer run build
+```
+
 ## Generating PO files
 
 To extract the texts from the source code and create a pot file simply go to the folder of your app and run
